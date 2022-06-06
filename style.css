@@ -608,4 +608,8 @@ aside {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .hero img {
+    width: 44rem;
+  }
 }
