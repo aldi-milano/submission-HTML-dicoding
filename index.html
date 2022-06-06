@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Palm Home Decor</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__link"
+        ><img src="./assets/logo/icon/logo.png" alt="logo" class="logo" />
+        <img src="./assets/logo/icon/logo-white.png" alt="logo" class="logo2" />
+      </a>
+      <nav>
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Home</a></li>
+          <li><a class="main-nav-link" href="#products">Products</a></li>
+          <li><a class="main-nav-link" href="#about">About Us</a></li>
+        </ul>
+      </nav>
+      <button class="btn__menu">
+        <i class="ph-list-fill icon__nav menu"></i>
+        <i class="ph-x-fill icon__nav close"></i>
+      </button>
+    </header>
+    <main>
+      <section class="section__hero">
+        <div class="hero">
+          <img src="./assets/logo/Palm-logo.png" alt="logo" />
+          <a href="#products" class="btn btn--hero">Explore Our Product</a>
+        </div>
+      </section>
+      <section class="section__products" id="products">
+        <article>
+          <div class="categories">
+            <h2 class="heading__secondary">Categories</h2>
+            <div class="categories__grid"></div>
+          </div>
+        </article>
+        <article>
+          <div class="products">
+            <h2 class="heading__secondary">PRODUCTS</h2>
+            <p class="sort__title">Sort by price:</p>
+            <div class="sort__container">
+              <i class="ph-sort-descending-fill icon__sort descending"></i>
+              <i class="ph-sort-ascending-fill icon__sort ascending"></i>
+            </div>
+            <div class="products__grid"></div>
+          </div>
+        </article>
+      </section>
+      <section class="section__about" id="about">
+        <div class="about">
+          <h2 class="heading__secondary">about us</h2>
+          <div class="about__flex">
+            <img src="./assets/about-2.jpg" alt="" />
+            <p>
+              In the small shop in the heart of Bandung, we are creating our
+              speciality of handmade home decor, which means every home decor we
+              are selling is unique.<br /><br />
+              we spend our days relentlessly perfecting the chair. The result is
+              a perfect blend of beauty and comfort, that will have a lasting
+              impact on your health.<br /><br />
+              We really care on every detail of wood we are choosen, every wood
+              is unique, has their own usage, has their own shape and bend.
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <aside>
+        <article class="aside__section">
+          <h2 class="heading__secondary">the author</h2>
+          <div class="container__flex">
+            <img src="./assets/foto.jpg" alt="photo" class="aside__img" />
+            <p class="aside__desc">
+              Greetings. I'm Aldi from Bandung, I am a dissability person with
+              hearing loss medium to severe.<br />
+              However, being a "different" doesn't mean I need to be treated
+              like a "different" person.<br />
+              Sometimes, I find it awkward and insulting when people feel bad or
+              pity to me.<br />
+              I'm just like all of you, Guys. But with barely sounds I can get,
+              :-D.
+            </p>
+          </div>
+        </article>
+      </aside>
+    </main>
+
+    <script src="./script.js"></script>
+    <footer>
+      <p>Copyright &copy; 2022 by Palm, Inc. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
